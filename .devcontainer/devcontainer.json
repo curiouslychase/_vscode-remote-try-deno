@@ -1,0 +1,15 @@
+{
+  "name": "Deno",
+  "dockerFile": "Dockerfile",
+  "runArgs": [],
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": ["justjavac.vscode-deno"],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [8000]
+  // Comment out to run as root instead
+  // "remoteUser": "vscode"
+}
